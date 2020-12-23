@@ -1,0 +1,9 @@
+<bean id="HelloGreeter" class="HelloWorld">
+    <property name="printStream" ref="printStream">"</property>
+
+    <constructor-arg ref = "baos"></constructor-arg>
+    <constructor-arg ref = "true"></constructor-arg>
+    <constructor-arg ref = "UTF-8"></constructor-arg>
+
+
+</bean>
